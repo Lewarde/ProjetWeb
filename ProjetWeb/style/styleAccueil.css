@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .titreAccueil {
+    margin-bottom: 20px;
+    text-align: center; /* Centre le texte horizontalement */
+    font-size: 24px; /* Augmente la taille de la police */
+    font-weight: bold; /* Rend le texte en gras */
+  }
+  
+  .zoneActions {
+    margin-bottom: 20px;
+  }
+  
+  .btnCreerPage {
+    background-color: #4CAF50; /* Vert */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .zoneChoixFormulaire {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .pageItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .pageItem span {
+    flex-grow: 1;
+  }
+  
+  .btnAcceder, .btnSupprimer {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .btnAcceder {
+    background-color: #008CBA; /* Bleu */
+    color: white;
+  }
+  
+  .btnSupprimer {
+    background-color: #f44336; /* Rouge */
+    color: white;
+  }
